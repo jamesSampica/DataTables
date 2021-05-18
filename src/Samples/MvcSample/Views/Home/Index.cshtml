@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Sample People";
+}
+
+<h2>@ViewData["Title"]</h2>
+<table data-url="@Url.Action("DataTable")">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Birth Date</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+@section Scripts {
+    <script type="text/javascript">
+        "use strict"
+
+        $(function(){
+            var $table = $("table");
+            $table.DataTable({
+                    ordering: false,
+                    serverSide: true,
+                    processing: true,
+                    ajax: {
+                        url: $table.data("url"),
+                        type: "post"
+                    },
+                    columns: [
+                        {
+                            data: "firstName",
+                        },
+                        {
+                            data: "lastName"
+                        },
+                        {
+                            data: "dateOfBirth"
+                        }
+                    ]
+            });
+        });
+    </script>
+}
