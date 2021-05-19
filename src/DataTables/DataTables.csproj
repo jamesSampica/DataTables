@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Wetware.DataTables</PackageId>
+    <Version>1.0.0-rc</Version>
+    <Company>Wetware</Company>
+    <Authors>James Sampica</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A library containing server side models for JQuery DataTables</Description>
+    <RepositoryUrl>https://github.com/jamesSampica/DataTables</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <EmbedAllSources>true</EmbedAllSources>
+    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
-
 </Project>
