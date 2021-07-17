@@ -7,10 +7,10 @@
     <Company>Wetware</Company>
     <Authors>James Sampica</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>A library containing server side models for JQuery DataTables</Description>
-    <RepositoryUrl>https://github.com/jamesSampica/DataTables</RepositoryUrl>
+    <Description>Models for binding JQuery DataTables requests to an ASP.NET backend</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/jamesSampica/DataTables</RepositoryUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <EmbedAllSources>true</EmbedAllSources>
