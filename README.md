@@ -18,5 +18,9 @@ Simply use `DataTablesParameters` as a parameter in a controller action. ASP.NET
         });
     }
 
+I recommend using [HttpPost] instead of [HttpGet] since DataTables has a lot of options and depending on your table configuration can overflow the browsers max length for a url.
+
+For a sample see the src/Samples/MvcSample project
+
 # Reference
 For a complete reference on the JQuery Datatables API please use https://datatables.net/reference/api/
