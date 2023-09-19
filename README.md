@@ -1,5 +1,5 @@
 # DataTables
-.NET package for binding the JQuery Datatables library with an ASP.NET back-end.
+.NET package for binding the jQuery Datatables library with an ASP.NET back-end.
 
 # Usage
 
@@ -23,4 +23,4 @@ I recommend using [HttpPost] instead of [HttpGet] since DataTables has a lot of 
 For a sample see the src/Samples/MvcSample project.
 
 # Reference
-For a complete reference on the JQuery Datatables API please use https://datatables.net/reference/api/
+For a complete reference on the jQuery Datatables API please use https://datatables.net/reference/api/
