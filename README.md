@@ -1,6 +1,8 @@
 # DataTables
 .NET package for binding the jQuery Datatables library with an ASP.NET back-end.
 
+This package contains nothing but the appropriate binding models, making it incredibly lean and efficient.
+
 Package: https://www.nuget.org/packages/Wetware.DataTables
 
 # Usage
