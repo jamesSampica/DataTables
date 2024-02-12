@@ -1,6 +1,8 @@
 # DataTables
 .NET package for binding the jQuery Datatables library with an ASP.NET back-end.
 
+Package: https://www.nuget.org/packages/Wetware.DataTables
+
 # Usage
 
 Simply use `DataTablesParameters` as a parameter in a controller action. ASP.NET will automatically bind what DataTables sends to server.
