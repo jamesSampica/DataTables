@@ -12,13 +12,13 @@ Simply use `DataTablesParameters` as a parameter in a controller action. ASP.NET
     [HttpPost]
     public IActionResult DataTable(DataTablesParameters parameters)
     {
-        //Get some stuff from somewhere 
+        // Get some stuff from somewhere 
 
         return Json(new DataTablesReturn<object>{
             Draw = parameters.Draw,
             Data = new List<object>(), // The data to return goes here
             RecordsTotal = 0, // Fill this out
-            RecordsFiltered = 0 //Fill this out
+            RecordsFiltered = 0 // Fill this out
         });
     }
 
