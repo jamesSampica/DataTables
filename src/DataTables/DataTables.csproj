@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>net6.0;net7.0;net8.0;net9.0</TargetFrameworks>
     <PackageId>Wetware.DataTables</PackageId>
-    <Version>3.0.0</Version>
+    <Version>3.1.0</Version>
     <Company>Wetware</Company>
     <Authors>James Sampica</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
