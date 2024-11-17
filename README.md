@@ -1,9 +1,7 @@
 # DataTables
-Dotnet package for binding the [jQuery Datatables library](https://datatables.net) with an ASP.NET back-end.
+Dotnet package for binding [jQuery Datatables](https://datatables.net) with an ASP.NET back-end.
 
-This package contains nothing but the appropriate binding models, making it very lean and efficient.
-
-If you'd like to internalize this instead, feel free to copy the csharp classes out of [/src/Datatables](https://github.com/jamesSampica/DataTables/tree/main/src/DataTables) and into your own projects.
+If you'd like to internalize this library into your project feel free to copy the csharp classes in [/src/Datatables](https://github.com/jamesSampica/DataTables/tree/main/src/DataTables) to your own projects.
 
 Package: https://www.nuget.org/packages/Wetware.DataTables
 
