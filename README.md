@@ -3,7 +3,7 @@ Dotnet package for binding the [jQuery Datatables library](https://datatables.ne
 
 This package contains nothing but the appropriate binding models, making it very lean and efficient.
 
-If you'd like to internalize this instead, feel free to copy the csharp classes out of [/src/Datatables](https://github.com/jamesSampica/DataTables/tree/main/src/DataTables) and into your own project(s).
+If you'd like to internalize this instead, feel free to copy the csharp classes out of [/src/Datatables](https://github.com/jamesSampica/DataTables/tree/main/src/DataTables) and into your own projects.
 
 Package: https://www.nuget.org/packages/Wetware.DataTables
 
@@ -24,9 +24,7 @@ Simply use `DataTablesParameters` as a parameter in a controller action. ASP.NET
         });
     }
 
-I recommend using `[HttpPost]` instead of `[HttpGet]` since DataTables has a lot of options and depending on your table configuration can overflow the browsers max length for a url.
-
-For a sample see the src/Samples/MvcSample project.
+I recommend using `[HttpPost]` instead of `[HttpGet]` since DataTables has a lot of options and depending on your table configuration can overflow the max length for a url.
 
 # Reference
 For a complete reference on the jQuery Datatables API please use https://datatables.net/reference/api/
