@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataTables", "DataTables\DataTables.csproj", "{2B5B8577-150F-4061-88A1-03589CF2765F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{74E9AF7D-0D79-4CD0-B4CF-1C624F563E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesSample", "RazorPagesSample\RazorPagesSample.csproj", "{ACEFE8E2-7E1B-4042-940D-0696E099D32A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B5B8577-150F-4061-88A1-03589CF2765F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5B8577-150F-4061-88A1-03589CF2765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5B8577-150F-4061-88A1-03589CF2765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5B8577-150F-4061-88A1-03589CF2765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEFE8E2-7E1B-4042-940D-0696E099D32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEFE8E2-7E1B-4042-940D-0696E099D32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEFE8E2-7E1B-4042-940D-0696E099D32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEFE8E2-7E1B-4042-940D-0696E099D32A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACEFE8E2-7E1B-4042-940D-0696E099D32A} = {74E9AF7D-0D79-4CD0-B4CF-1C624F563E3F}
+	EndGlobalSection
+EndGlobal

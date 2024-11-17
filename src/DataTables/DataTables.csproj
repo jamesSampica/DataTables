@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
     <PackageId>Wetware.DataTables</PackageId>
-    <Version>2.0.0</Version>
+    <Version>3.0.0</Version>
     <Company>Wetware</Company>
     <Authors>James Sampica</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -15,6 +15,8 @@
     <IncludeSymbols>true</IncludeSymbols>
     <EmbedAllSources>true</EmbedAllSources>
     <DebugSymbols>true</DebugSymbols>
+	<AssemblyName>Wetware.$(MSBuildProjectName)</AssemblyName>
+	<RootNamespace>Wetware.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
     <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>

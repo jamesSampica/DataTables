@@ -1,0 +1,44 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<div class="col-6">
+    <table id="myTable">
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Age</td>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<form method="post">
+</form>
+
+@section Scripts{
+    <script src="//cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+    <script>
+        $('#myTable').DataTable({
+            serverSide: true,
+            ajax: {
+                url: '/',
+                type: 'POST',
+                data: { "__RequestVerificationToken": $('input:hidden[name=__RequestVerificationToken]').val() }
+            },
+            columns: [
+                { data: 'name' },
+                { data: 'age' }
+            ]
+        });
+    </script>
+}
