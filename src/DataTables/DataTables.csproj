@@ -14,7 +14,6 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <EmbedAllSources>true</EmbedAllSources>
-    <DebugSymbols>true</DebugSymbols>
 	<AssemblyName>Wetware.$(MSBuildProjectName)</AssemblyName>
 	<RootNamespace>Wetware.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
   </PropertyGroup>
